@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Pacifico&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Pacifico&family=Shantell+Sans:wght@300&family=Tilt+Neon&display=swap');
+*{font-family: 'Tilt Neon', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(148, 176, 201);
+    width: 100%;
+   
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+.navigation a{
+    text-decoration: none;
+    color: rgb(44, 68, 90);
+    font-weight: 500;
+    padding-left: 12px;
+    font-size: 1.1em;
+    transition: 0.7s;
+}
+.navi a{
+    text-decoration: none;
+    color: rgb(44, 68, 90);
+    font-weight: 500;
+    padding-left: 12px;
+    font-size: 1.1em;
+    transition: 0.7s ease;
+}
+.navi a:hover{
+    color: rgb(224, 231, 236);
+}
+.navigation a:hover{
+    color: rgb(224, 231, 236);
+}
+#logo{
+    color: rgb(252, 252, 252);
+}
+.main{
+    background: url(./foto.jpeg) no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position:center ;
+    align-items: center;
+    
+    
+ }
+.asid{
+    background-color: rgb(51, 80, 102);
+    width: 15.5%;
+    
+}
+.natire{
+    margin-bottom: 90px;
+    
+}
+#log{
+    font-size: 1.9em;
+    color: rgb(185, 214, 228);
+    padding-left: 75px;
+}
+.asid a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+   padding-left:63px ;
+   padding-bottom: 15px;
+   overflow: scroll;
+   transition:0.7s ease ;
+}
+.asid a:hover{
+    color: rgb(104, 170, 231);
+}
+.bb1{
+    padding-bottom: 30px;
+}
+
+.mai h4{
+    margin-bottom: 15px;
+    padding-left: 100px;
+    padding-top: 200px;
+    color: rgb(101, 157, 206);
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+.mai{
+    margin-bottom: 250px;
+}
+
+.mai h1{
+    padding-left: 100px;
+   font-size: 2.4em;
+   color: rgb(29, 52, 73);
+   margin-bottom: 50px;
+}
+.btn-main{
+    text-decoration: none;
+    color: rgb(29, 43, 56);
+    margin-left: 90px;
+    background-color: rgb(192, 214, 233);
+    display: inline-block;
+    box-shadow: 10px -10px rgb(189, 192, 192);
+    padding: 0.5em 1.1em;
+    transition:0.7s ease ;
+}
+.btn-main:hover{
+    transform: scale(1.1);
+}
+.img-main{
+    background-color: rgb(181, 199, 214);
+    width: 100%;
+    height: 22vh;
+    
+}
+.img-main img{
+    margin: 50px;
+    margin-top: 12px;
+
+
+
+}
+.imgm{
+    border-radius: 15px;
+}
+.product{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 100vh;
+    
+}
+.product h2{
+    color: rgb(29, 52, 73);
+    font-size:2.7em ;
+    margin-left: 520px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.product-nav a{
+    text-decoration: none;
+    font-size: 1.3em;
+    padding-left: 85px;
+    color: rgb(153, 156, 158);
+    transition: 0.7s ease;
+}
+.product-nav a:hover{
+    color: rgb(61, 74, 85);
+}
+.img-sofa{
+    background-color: rgb(224, 234, 243);
+    width: 82%;
+    min-height: 50vh;
+    margin-left: 75px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px #aca3a3;
+    transition: 0.7s ease;
+}
+.img-sofa:hover{
+    transform: scale(1.1);
+}
+.img-sofa img{
+    border-radius: 15px;
+}
+.cc{
+    font-size: 1em;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 27px;
+    background-color: rgb(160, 202, 238);
+    border-radius: 15px;
+    color: rgb(74, 88, 126);
+    transition: 0.7s ease;
+}
+.cc:hover{
+    color: aliceblue;
+}
+.sofa h4{
+    font-size: 1em;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+.sofa p{
+    margin-left: 210px;
+    margin-top: 10px;
+}
+.cc2{
+    margin-top: 10px;
+    margin-left: 198px;
+}
+.cc1{
+    font-size: 0.8em;
+    color: rgb(255, 251, 0);
+}
+.inline{
+    display: inline-block;
+}
+.week{
+    background: url(./back.jpg) no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.weekend h1{
+    font-size: 5.6em;
+    color: rgb(221, 209, 34);
+    margin-left: 700px;
+    margin-bottom: 20px;
+    
+}
+.weekend h2{
+    font-size: 2.8em;
+    color: rgb(29, 52, 73);
+    margin-left: 700px;
+    margin-bottom: 20px;
+}
+.weekend p{
+    margin-left: 700px;
+    color: rgb(70, 105, 138);
+    margin-bottom: 50px;
+}
+.weekend a{
+    text-decoration: none;
+    color: rgb(58, 87, 114);
+    margin-left: 900px;
+    background-color: rgb(242, 243, 245);
+    padding: 0.7em 1.1em;
+    box-shadow: 5px 5px 5px rgba(29, 28, 28, 0.959);
+    transition: 0.7s ease;
+   
+}
+.weekend a:hover{
+    color: rgb(114, 184, 250);
+}
+.weekend{
+    margin-bottom: 170px;
+    
+}
+.img{
+    background-color: rgba(235, 231, 231, 0.863);
+    width: 100%;
+    min-height: 0vh;
+   
+}
+.liv img{
+   float: left;
+   margin-right: 80px;
+}
+.liv{
+    margin:auto;
+    padding-top:100px ;
+    width: 70%;
+   margin-bottom: 150px;
+}
+.living h2{
+    font-family: 'Pacifico', cursive;
+    color: rgb(29, 52, 73);
+    font-size: 2.3em;
+    margin-top: 80px;
+    
+}
+.living p{
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.living a{
+    text-decoration: none;
+    color: #648daf;
+    font-size: 1.1em;
+    margin-left: 35px;
+    padding: 0.7em 1.1em;
+    box-shadow: 5px 5px 5px rgba(126, 93, 93, 0.959);
+    display: inline-block;
+    transition: 0.7s ease;
+}
+.living a:hover{
+    transform: scale(1.1);
+}
+
+.dining img{
+    float: right;
+    margin-left: 50px;
+    padding-bottom: 100px;
+ }
+ .dining{
+     margin:auto;
+     padding-top:100px ;
+     width: 70%;
+     
+ }
+ .pdin h2{
+     font-family: 'Pacifico', cursive;
+     color: rgb(29, 52, 73);
+     font-size: 2.3em;
+     margin-top: 80px;
+     
+ }
+ .pdin p{
+     line-height: 1.4;
+     margin-top: 20px;
+     margin-bottom: 35px;
+ }
+ .pdin a{
+     text-decoration: none;
+     color: #648daf;
+     font-size: 1.1em;
+     margin-left: 35px;
+     padding: 0.7em 1.1em;
+     box-shadow: 5px 5px 5px rgba(126, 93, 93, 0.959);
+     display: inline-block;
+     transition: 0.7s ease;
+ }
+ .pdin a:hover{
+     transform: scale(1.1);
+}
+
+.bed img{
+    float: left;
+    margin-right: 80px;
+    padding-bottom: 50px;
+ }
+ .bed{
+     margin:auto;
+     padding-top:50px ;
+     width: 70%;
+    margin-bottom: 150px;
+ }
+ .pbed h2{
+     font-family: 'Pacifico', cursive;
+     color: rgb(29, 52, 73);
+     font-size: 2.3em;
+     margin-top: 80px;
+     
+ }
+ .pbed p{
+     line-height: 1.4;
+     margin-top: 20px;
+     margin-bottom: 35px;
+ }
+ .pbed a{
+     text-decoration: none;
+     color: #648daf;
+     font-size: 1.1em;
+     margin-left: 35px;
+     padding: 0.7em 1.1em;
+     box-shadow: 5px 5px 5px rgba(126, 93, 93, 0.959);
+     display: inline-block;
+     transition: 0.7s ease;
+ }
+ .pbed a:hover{
+     transform: scale(1.1);
+}
+
+.kitchen img{
+    float: right;
+    margin-left: 50px;
+    padding-bottom: 100px;
+ }
+ .kitchen{
+     margin:auto;
+     padding-top:70px ;
+     width: 70%;
+     
+ }
+ .pkitchen h2{
+     font-family: 'Pacifico', cursive;
+     color: rgb(29, 52, 73);
+     font-size: 2.3em;
+     margin-top: 80px;
+     
+ }
+ .pkitchen p{
+     line-height: 1.4;
+     margin-top: 20px;
+     margin-bottom: 35px;
+ }
+ .pkitchen a{
+     text-decoration: none;
+     color: #648daf;
+     font-size: 1.1em;
+     margin-left: 35px;
+     padding: 0.7em 0.8em;
+     box-shadow: 5px 5px 5px rgba(126, 93, 93, 0.959);
+     display: inline-block;
+     transition: 0.7s ease;
+ }
+ .pkitchen a:hover{
+     transform: scale(1.1);
+}
+.mail{
+    background: url(mail.avif) no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position:center ;
+}
+.email{
+    margin-left: 500px;
+    padding-top: 220px;
+}
+.email h2{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 3.4em;
+    color: rgb(110, 145, 179);
+}
+.email p{
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.maill{
+    padding: 10px;
+    padding-left: 110px;
+    border-radius: 50px 50px;
+   background-color: rgb(224, 241, 247);
+   border-color: rgb(224, 241, 247);
+}
+.btn{
+    padding: 10px;
+    border-radius: 50px 50px;
+    border-color: rgb(250, 250, 250);
+    background-color: #648daf;
+    margin-right: 15px;
+}
+.contact{
+    background-color: rgb(228, 232, 235);
+}
+.pp{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.cont{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-top: 35px;
+}
+.footer1 h2{
+    margin-bottom: 2rem;
+    color: #43637e;
+}
+.footer1 a{
+    text-decoration: none;
+    color: #648daf;
+    display: block;
+    transition: 0.4s ease;
+}
+.footer1 a:hover{
+    color: #df9797;
+}
+.ff{
+    color: #43637e;
+}
+span{
+    color: aliceblue;
+}
+.col{
+    background-color: #90c0e7;
+    padding: 20px;
+    border-radius: 15px;
+}
+footer{
+    background-color: rgb(188, 216, 241);
+    padding-left:550px ;
+    font-size: 1.3em;
+}
+
